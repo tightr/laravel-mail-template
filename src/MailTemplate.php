@@ -1,8 +1,8 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate;
+namespace Tightr\MailTemplate;
 
-use DansMaCulotte\MailTemplate\Drivers\Driver;
+use Tightr\MailTemplate\Drivers\Driver;
 
 /**
  * @method self setSubject(string $string)

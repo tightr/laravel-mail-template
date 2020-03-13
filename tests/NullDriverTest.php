@@ -1,9 +1,9 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Tests;
+namespace Tightr\MailTemplate\Tests;
 
-use DansMaCulotte\MailTemplate\Drivers\NullDriver;
+use Tightr\MailTemplate\Drivers\NullDriver;
 use Illuminate\Support\Facades\Log;
 use Mockery;
 use PHPUnit\Framework\TestCase;

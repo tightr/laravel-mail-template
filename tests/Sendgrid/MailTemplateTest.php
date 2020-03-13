@@ -1,12 +1,12 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate\Tests\Sendgrid;
+namespace Tightr\MailTemplate\Tests\Sendgrid;
 
-use DansMaCulotte\MailTemplate\Drivers\SendgridDriver;
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
-use DansMaCulotte\MailTemplate\MailTemplate;
-use DansMaCulotte\MailTemplate\Tests\TestCase;
+use Tightr\MailTemplate\Drivers\SendgridDriver;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\Tests\TestCase;
 use Mockery;
 use Mockery\Mock;
 use SendGrid;

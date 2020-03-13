@@ -1,12 +1,12 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate\Tests\Sendinblue;
+namespace Tightr\MailTemplate\Tests\Sendinblue;
 
-use DansMaCulotte\MailTemplate\Drivers\SendinblueDriver;
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
-use DansMaCulotte\MailTemplate\MailTemplate;
-use DansMaCulotte\MailTemplate\Tests\TestCase;
+use Tightr\MailTemplate\Drivers\SendinblueDriver;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\Tests\TestCase;
 use Mockery;
 use SendinBlue\Client\Api\SMTPApi;
 use SendinBlue\Client\ApiException;
@@ -14,13 +14,13 @@ use SendinBlue\Client\Model\CreateSmtpEmail;
 
 class MailTemplateTest extends TestCase
 {
-    /** @var \DansMaCulotte\MailTemplate\Drivers\SendinblueDriver */
+    /** @var \Tightr\MailTemplate\Drivers\SendinblueDriver */
     protected $driver;
 
     /** @var Mockery\Mock */
     protected $client;
 
-    /** @var \DansMaCulotte\MailTemplate\MailTemplate */
+    /** @var \Tightr\MailTemplate\MailTemplate */
     protected $mailTemplate;
 
     public function setUp(): void

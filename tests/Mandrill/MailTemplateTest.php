@@ -1,12 +1,12 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Tests\Mandrill;
+namespace Tightr\MailTemplate\Tests\Mandrill;
 
-use DansMaCulotte\MailTemplate\Drivers\MandrillDriver;
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
-use DansMaCulotte\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\Drivers\MandrillDriver;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\MailTemplate;
 use Mandrill;
 use Mandrill_Error;
 use Mandrill_Messages;
@@ -15,13 +15,13 @@ use PHPUnit\Framework\TestCase;
 
 class MailTemplateTest extends TestCase
 {
-    /** @var \DansMaCulotte\MailTemplate\Drivers\MandrillDriver */
+    /** @var \Tightr\MailTemplate\Drivers\MandrillDriver */
     protected $driver;
 
     /** @var Mockery\Mock */
     protected $client;
 
-    /** @var \DansMaCulotte\MailTemplate\MailTemplate */
+    /** @var \Tightr\MailTemplate\MailTemplate */
     protected $mailTemplate;
 
     public function setUp(): void

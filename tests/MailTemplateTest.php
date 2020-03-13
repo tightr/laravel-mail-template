@@ -1,16 +1,16 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Tests;
+namespace Tightr\MailTemplate\Tests;
 
-use DansMaCulotte\MailTemplate\Drivers\Driver;
-use DansMaCulotte\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\Drivers\Driver;
+use Tightr\MailTemplate\MailTemplate;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 
 class MailTemplateTest extends TestCase
 {
-    /** @var \DansMaCulotte\MailTemplate\Drivers\Driver */
+    /** @var \Tightr\MailTemplate\Drivers\Driver */
     protected $driver;
 
     /** @var MailTemplate */

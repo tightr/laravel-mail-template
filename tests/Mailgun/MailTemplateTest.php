@@ -1,12 +1,12 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate\Tests\Mailgun;
+namespace Tightr\MailTemplate\Tests\Mailgun;
 
-use DansMaCulotte\MailTemplate\Drivers\MailgunDriver;
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
-use DansMaCulotte\MailTemplate\MailTemplate;
-use DansMaCulotte\MailTemplate\Tests\TestCase;
+use Tightr\MailTemplate\Drivers\MailgunDriver;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\Tests\TestCase;
 use Mailgun\Api\Message;
 use Mailgun\Exception\HttpClientException;
 use Mailgun\Mailgun;

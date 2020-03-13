@@ -1,9 +1,9 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate\Drivers;
+namespace Tightr\MailTemplate\Drivers;
 
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
 use GuzzleHttp\Client;
 use SendinBlue\Client\Api\SMTPApi;
 use SendinBlue\Client\ApiException;

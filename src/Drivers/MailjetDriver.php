@@ -1,15 +1,15 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate\Drivers;
+namespace Tightr\MailTemplate\Drivers;
 
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
 use Mailjet\Client;
 use Mailjet\Resources;
 
 /**
  * Class MailjetDriver
- * @package DansMaCulotte\MailTemplate\Drivers
+ * @package Tightr\MailTemplate\Drivers
  */
 class MailjetDriver implements Driver
 {

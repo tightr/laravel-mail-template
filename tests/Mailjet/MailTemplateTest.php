@@ -1,12 +1,12 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Tests\Mailjet;
+namespace Tightr\MailTemplate\Tests\Mailjet;
 
-use DansMaCulotte\MailTemplate\Drivers\MailjetDriver;
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
-use DansMaCulotte\MailTemplate\Exceptions\SendError;
-use DansMaCulotte\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\Drivers\MailjetDriver;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Exceptions\SendError;
+use Tightr\MailTemplate\MailTemplate;
 use Mailjet\Client;
 use Mailjet\Request;
 use Mailjet\Response;
@@ -16,13 +16,13 @@ use Psr\Http\Message\ResponseInterface;
 
 class MailTemplateTest extends TestCase
 {
-    /** @var \DansMaCulotte\MailTemplate\Drivers\MailjetDriver */
+    /** @var \Tightr\MailTemplate\Drivers\MailjetDriver */
     protected $driver;
 
     /** @var Mockery\Mock */
     protected $client;
 
-    /** @var \DansMaCulotte\MailTemplate\MailTemplate */
+    /** @var \Tightr\MailTemplate\MailTemplate */
     protected $mailTemplate;
 
     public function setUp(): void

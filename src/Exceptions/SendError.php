@@ -1,14 +1,14 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Exceptions;
+namespace Tightr\MailTemplate\Exceptions;
 
 use Exception;
 use Throwable;
 
 /**
  * Class SendError
- * @package DansMaCulotte\MailTemplate\Exceptions
+ * @package Tightr\MailTemplate\Exceptions
  */
 class SendError extends Exception
 {

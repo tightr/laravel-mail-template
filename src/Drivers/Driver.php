@@ -1,11 +1,11 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Drivers;
+namespace Tightr\MailTemplate\Drivers;
 
 /**
  * Interface Driver
- * @package DansMaCulotte\MailTemplate\Drivers
+ * @package Tightr\MailTemplate\Drivers
  */
 interface Driver
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate;
+namespace Tightr\MailTemplate;
 
 use Illuminate\Support\Facades\Facade;
 

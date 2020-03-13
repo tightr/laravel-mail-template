@@ -1,9 +1,9 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Tests;
+namespace Tightr\MailTemplate\Tests;
 
-use DansMaCulotte\MailTemplate\MailTemplateServiceProvider;
+use Tightr\MailTemplate\MailTemplateServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

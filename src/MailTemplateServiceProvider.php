@@ -1,14 +1,14 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate;
+namespace Tightr\MailTemplate;
 
-use DansMaCulotte\MailTemplate\Drivers\MailgunDriver;
-use DansMaCulotte\MailTemplate\Drivers\MailjetDriver;
-use DansMaCulotte\MailTemplate\Drivers\MandrillDriver;
-use DansMaCulotte\MailTemplate\Drivers\NullDriver;
-use DansMaCulotte\MailTemplate\Drivers\SendgridDriver;
-use DansMaCulotte\MailTemplate\Drivers\SendinblueDriver;
-use DansMaCulotte\MailTemplate\Exceptions\InvalidConfiguration;
+use Tightr\MailTemplate\Drivers\MailgunDriver;
+use Tightr\MailTemplate\Drivers\MailjetDriver;
+use Tightr\MailTemplate\Drivers\MandrillDriver;
+use Tightr\MailTemplate\Drivers\NullDriver;
+use Tightr\MailTemplate\Drivers\SendgridDriver;
+use Tightr\MailTemplate\Drivers\SendinblueDriver;
+use Tightr\MailTemplate\Exceptions\InvalidConfiguration;
 use Illuminate\Support\ServiceProvider;
 
 class MailTemplateServiceProvider extends ServiceProvider

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace DansMaCulotte\MailTemplate\Tests;
+namespace Tightr\MailTemplate\Tests;
 
-use DansMaCulotte\MailTemplate\MailTemplate;
-use DansMaCulotte\MailTemplate\MailTemplateChannel;
+use Tightr\MailTemplate\MailTemplate;
+use Tightr\MailTemplate\MailTemplateChannel;
 use Illuminate\Notifications\Notifiable as NotifiableTrait;
 use Illuminate\Support\Facades\Notification;
 

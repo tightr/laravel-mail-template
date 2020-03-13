@@ -1,10 +1,10 @@
 # A laravel mail template driver to send emails with
 
-[![Latest Version](https://img.shields.io/packagist/v/DansMaCulotte/laravel-mail-template.svg?style=flat-square)](https://packagist.org/packages/dansmaculotte/laravel-mail-template)
-[![Total Downloads](https://img.shields.io/packagist/dt/DansMaCulotte/laravel-mail-template.svg?style=flat-square)](https://packagist.org/packages/dansmaculotte/laravel-mail-template)
-[![Build Status](https://img.shields.io/travis/DansMaCulotte/laravel-mail-template/master.svg?style=flat-square)](https://travis-ci.org/dansmaculotte/laravel-mail-template)
-[![Quality Score](https://img.shields.io/scrutinizer/g/DansMaCulotte/laravel-mail-template.svg?style=flat-square)](https://scrutinizer-ci.com/g/dansmaculotte/laravel-mail-template)
-[![Code Coverage](https://img.shields.io/coveralls/github/DansMaCulotte/laravel-mail-template.svg?style=flat-square)](https://coveralls.io/github/dansmaculotte/laravel-mail-template)
+[![Latest Version](https://img.shields.io/packagist/v/Tightr/laravel-mail-template.svg?style=flat-square)](https://packagist.org/packages/tightr/laravel-mail-template)
+[![Total Downloads](https://img.shields.io/packagist/dt/Tightr/laravel-mail-template.svg?style=flat-square)](https://packagist.org/packages/tightr/laravel-mail-template)
+[![Build Status](https://img.shields.io/travis/Tightr/laravel-mail-template/master.svg?style=flat-square)](https://travis-ci.org/tightr/laravel-mail-template)
+
+This package is a fork from [the original package by DansMaCulotte](https://github.com/dansmaculotte/laravel-mail-template).
 
 > This package allows you to send emails via mail service providers template's engine.
 
@@ -27,7 +27,7 @@ There is also and `log` and `null` driver for testing and debug purpose.
 You can install the package via composer:
 
 ```bash
-composer require dansmaculotte/laravel-mail-template
+composer require tightr/laravel-mail-template
 ```
 
 The package will automatically register itself.
@@ -35,7 +35,7 @@ The package will automatically register itself.
 To publish the config file to config/mail-template.php run:
 
 ```php
-php artisan vendor:publish --provider="DansMaCulotte\MailTemplate\MailTemplateServiceProvider"
+php artisan vendor:publish --provider="Tightr\MailTemplate\MailTemplateServiceProvider"
 ```
 
 Finally, install the email service package needed:

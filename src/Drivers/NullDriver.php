@@ -1,12 +1,12 @@
 <?php
 
-namespace DansMaCulotte\MailTemplate\Drivers;
+namespace Tightr\MailTemplate\Drivers;
 
 use Illuminate\Support\Facades\Log;
 
 /**
  * Class NullDriver
- * @package DansMaCulotte\MailTemplate\Drivers
+ * @package Tightr\MailTemplate\Drivers
  */
 class NullDriver
 {
