@@ -68,6 +68,21 @@ class MailjetDriver implements Driver
     }
 
     /**
+     * @param string $email
+     * @param mixed $name
+     * @return Driver
+     */
+    public function setTemplateErrorReporting(string $email, $name = null): Driver
+    {
+        $this->message['TemplateErrorReporting'] = [
+            'email' => $email,
+            'name' => $name,
+        ];
+
+        return $this;
+    }
+
+    /**
      * @param string $subjet
      * @return Driver
      */

@@ -29,6 +29,13 @@ interface Driver
     public function setTemplate($template): self;
 
     /**
+     * @param string $email
+     * @param mixed $name
+     * @return Driver
+     */
+    public function setTemplateErrorReporting(string $email, $name): self;
+
+    /**
      * @param string $subject
      * @return Driver
      */
