@@ -1,7 +1,7 @@
 {
     "name": "tightr/laravel-mail-template",
     "description": "A mail template driver to send emails with",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "keywords": [
         "mail",
         "template",
