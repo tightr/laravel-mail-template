@@ -65,6 +65,18 @@ class MailgunDriver implements Driver
     }
 
     /**
+     * @param string $email
+     * @param mixed $name
+     * @return Driver
+     */
+    public function setTemplateErrorReporting(string $email, $name = null): Driver
+    {
+        // TODO
+
+        return $this;
+    }
+
+    /**
      * @param string $subject
      * @return Driver
      */
